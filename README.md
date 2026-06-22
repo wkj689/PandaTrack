@@ -84,10 +84,10 @@ The workflow includes:
 ## PandaTrack Video Naming Format Instructions
 
 To ensure that the system can correctly parse the recording date and start time of each video, all input videos must follow a standardized naming convention.
----
+
 ### 1. File Naming Format
 YYYYMMDD_startHour_endHour.mp4
----
+
 ### 2. Format Description
 - YYYYMMDD: Indicates the recording date of the video
 Example: 20250803 represents August 03, 2025
