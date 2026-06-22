@@ -21,7 +21,7 @@ The PandaTrack system provides an integrated workflow consisting of three core f
 ---
 (1) Video Analysis Module
 In the “Video Analysis” module, users can import raw video data for automated behavioral analysis. The system supports both single-video input and batch folder processing. After loading the trained detection model, PandaTrack performs frame-by-frame inference to detect panda instances and extract their spatial positions.
-![alt text](002a1f80-4b35-462e-85f3-d21143e63d86.png)
+![Fig1](images/Fig1.png)
 ---
 (2)Trajectory and Spatial Visualization Module
 The “Trajectory Visualization” module enables secondary analysis of preprocessed trajectory data by importing the generated trajectory.xlsx files.
@@ -31,7 +31,7 @@ Generation of individual movement trajectory maps
 Automated grid-based spatial heatmap construction
 Visualization of trajectory overlays and spatial density distributions
 By integrating temporal and spatial dimensions, the module allows quantitative assessment of habitat utilization patterns and behavioral space preferences.
-![alt text](002a1f80-4b35-462e-85f3-d21143e63d86-1.png)
+![Fig2](images/Fig2.png)
 ---
 (3) Model training module
 The “Model Training” module enables users to train customized detection models using their own datasets.
@@ -41,7 +41,7 @@ Performing object annotation using external tools (e.g., MakeSense.ai)
 Generating YOLO-format dataset configuration files (data.yaml)
 Selecting pretrained weights and configuring training hyperparameters
 Initiating model training with real-time monitoring of loss and performance metrics
-![alt text](77b6d133-5818-42e0-8705-0961ff49ec69.png)
+![Fig3](images/Fig3.png)
 ---
 PandaTrack Video Naming Format Instructions
 ---
