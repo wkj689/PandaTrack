@@ -84,7 +84,6 @@ The workflow includes:
 ## PandaTrack Video Naming Format Instructions
 
 To ensure that the system can correctly parse the recording date and start time of each video, all input videos must follow a standardized naming convention.
-
 ---
 ### 1. File Naming Format
 YYYYMMDD_startHour_endHour.mp4
