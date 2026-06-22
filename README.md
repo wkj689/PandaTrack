@@ -11,7 +11,7 @@ Behavioral spatial heterogeneity analysis
 Compared with traditional manual observation, PandaTrack provides a quantitative, reproducible, and scalable framework for animal behavior analysis.
 ---
 Installation
-git clone https://github.com/yourusername/PandaTrack.git
+git clone https://github.com/wkj689/PandaTrack.git
 cd PandaTrack
 pip install -r requirements.txt
 ---
