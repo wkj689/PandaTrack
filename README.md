@@ -87,21 +87,24 @@ To ensure correct parsing of video recording time information, all input videos 
 
 ---
 
-### 1. File Naming Format
+## PandaTrack Video Naming Format Instructions
 
-```text
+To ensure that the system can correctly parse the recording date and start time of each video, all input videos must follow a standardized naming convention.
+
+---
+## 1. File Naming Format
 YYYYMMDD_startHour_endHour.mp4
-
-### 2. Format Description
-YYYYMMDD: Recording date of the video
+---
+## 2. Format Description
+YYYYMMDD: Indicates the recording date of the video
 Example: 20250803 represents August 03, 2025
-startHour: Starting hour of recording (24-hour format, two digits)
+startHour: Indicates the starting hour of video recording (two-digit format)
 Example: 09, 12, 15, 23
-endHour: Ending hour of recording (24-hour format, two digits)
+endHour: Indicates the ending hour of video recording (two-digit format)
 Example: 12, 15, 18, 24
-File extension: .mp4 (recommended)
+File extension: Recommended format is .mp4
 
-###3. Examples
+## 3. Examples
 20250803_12_15.mp4
 20250616_09_12.mp4
 20250803_15_18.mp4
