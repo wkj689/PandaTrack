@@ -2,13 +2,13 @@ PandaTrack: A Computer Vision-Based Quantitative Spatial Behavioral Monitoring S
 ---
 Introduction
 ---
-PandaTrack is an end-to-end computer vision framework for automated detection, tracking, and spatial behavior analysis of captive giant pandas in zoo environments.
-The system integrates deep learning-based object detection with spatial statistical analysis, enabling transformation of raw surveillance videos into structured behavioral representations, including:
-Individual movement trajectories
-Grid-based enclosure utilization patterns
-Spatial hotspot distributions
-Behavioral spatial heterogeneity analysis
-Compared with traditional manual observation, PandaTrack provides a quantitative, reproducible, and scalable framework for animal behavior analysis.
+-PandaTrack is an end-to-end computer vision framework for automated detection, tracking, and spatial behavior analysis of captive giant pandas in zoo environments.
+-The system integrates deep learning-based object detection with spatial statistical analysis, enabling transformation of raw surveillance videos into structured behavioral representations, including:
+-Individual movement trajectories
+-Grid-based enclosure utilization patterns
+-Spatial hotspot distributions
+-Behavioral spatial heterogeneity analysis
+-Compared with traditional manual observation, PandaTrack provides a quantitative, reproducible, and scalable framework for animal behavior analysis.
 ---
 Installation
 git clone https://github.com/wkj689/PandaTrack.git
