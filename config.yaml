@@ -1,0 +1,28 @@
+general:
+  output_dir: results/
+  frame_skip: 2
+  enable_motion_detection: false
+  show_heatmap: false
+  heatmap_alpha: 0.45
+  save_trajectory_plot: true
+  heatmap_background: auto
+  topk_hotspots: 3
+  raw_heatmap: true
+  grid_init_frames: 30
+  database_path: panda_analysis_database.xlsx  # Unified database path
+  save_processed_video: false  #Controls whether to output the processed video
+
+detection:
+  conf_threshold: 0.40
+  process_width: 416
+  process_height: 416
+
+motion:
+  dark_threshold: 15
+  bright_threshold: 245
+  motion_threshold: 0.012
+  contour_area_threshold: 8
+  blur_size: 5
+  state_buffer_size: 5
+  min_motion_frames: 3
+  motion_detection_threshold: 0.0004
