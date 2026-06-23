@@ -46,6 +46,7 @@ In this module, users can import raw video data for automated behavioral analysi
 The system supports both single-video input and batch processing.
 
 After loading the trained detection model, PandaTrack performs frame-by-frame inference to detect panda instances and extract spatial positions.
+
 ![Fig1](Images/Fig1.png)
 
 ---
@@ -62,6 +63,7 @@ It supports the following functions:
 - Visualization of spatial density distributions  
 
 By integrating temporal and spatial dimensions, the system enables quantitative assessment of habitat utilization patterns and behavioral space preferences.
+
 ![Fig2](Images/Fig2.png)
 
 ---
@@ -76,7 +78,8 @@ The workflow includes:
 - Performing annotation using external tools (e.g., MakeSense.ai)  
 - Generating YOLO-format dataset configuration files (data.yaml)  
 - Selecting pretrained weights  
-- Training model with real-time monitoring of performance metrics  
+- Training model with real-time monitoring of performance metrics
+  
 ![Fig3](Images/Fig3.png)
 
 ---
