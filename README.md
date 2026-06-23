@@ -22,7 +22,7 @@ Compared with traditional manual observation, PandaTrack provides a quantitative
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/PandaTrack.git
+git clone https://github.com/wkj689/PandaTrack.git
 cd PandaTrack
 pip install -r requirements.txt
 ```
